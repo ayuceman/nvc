@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://dhamma.org" version="3-0-0">
+  <UniqueAppId>OSA-979979-1381283977</UniqueAppId>
+  <ApplicationReferenceCode>a035f438</ApplicationReferenceCode>
+  <ApplicationLanguage>
+    <LanguageKey>
+      <IsoCode>en</IsoCode>
+    </LanguageKey>
+  </ApplicationLanguage>
+  <Event>
+    <EventKey>
+      <LocationKey>
+        <SubDomain>regression</SubDomain>
+      </LocationKey>
+      <EventId>03-02-2018.10-Day:10-Day.Standard</EventId>
+    </EventKey>
+    <Tentative>
+      <Value>false</Value>
+    </Tentative>
+    <StartDate>2018-02-03</StartDate>
+    <EndDate>2018-02-14</EndDate>
+    <EnrollmentOpenDate>2013-01-01</EnrollmentOpenDate>
+    <EventType>10-Day</EventType>
+    <ApplicationTemplateName>10-Day.Standard</ApplicationTemplateName>
+    <ApplicationDeliveryFormat>XML</ApplicationDeliveryFormat>
+    <Translations>
+      <Translation>
+        <LanguageKey>
+          <IsoCode>en</IsoCode>
+        </LanguageKey>
+        <Comments>03-02-2018.10-Day:10-Day.Standard</Comments>
+      </Translation>
+      <Translation>
+        <LanguageKey>
+          <IsoCode>es</IsoCode>
+        </LanguageKey>
+      </Translation>
+    </Translations>
+    <NewMaleStatus>Open</NewMaleStatus>
+    <NewFemaleStatus>Open</NewFemaleStatus>
+    <OldMaleStatus>Open</OldMaleStatus>
+    <OldFemaleStatus>Open</OldFemaleStatus>
+    <MaleServerStatus>Open</MaleServerStatus>
+    <FemaleServerStatus>Open</FemaleServerStatus>
+    <Cancelled>
+      <Value>false</Value>
+    </Cancelled>
+    <NewEvent>
+      <Value>false</Value>
+    </NewEvent>
+    <DateChange>
+      <Value>false</Value>
+    </DateChange>
+    <ListOnly>
+      <Value>false</Value>
+    </ListOnly>
+    <Special>
+      <Value>false</Value>
+    </Special>
+    <CanApplyInProgress>
+      <Value>false</Value>
+    </CanApplyInProgress>
+    <Comments>03-02-2018.10-Day:10-Day.Standard</Comments>
+  </Event>
+  <AppItems>
+    <!-- Page 1: OldNew.ON-->
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionQualifyOldStudent</IntegrationReference>
+        <TAGReference>IOS</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Have you completed a 10-day course with S.N.Goenka or any of his assistant teachers?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Have you completed a 10-day course with S.N.Goenka or any of his assistant teachers?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionQualifyGender</IntegrationReference>
+        <TAGReference>GEN</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Select Gender</ApplicationLanguagePromptText>
+        <EnglishPromptText>Select Gender</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>M</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileAddressCountry</IntegrationReference>
+        <TAGReference>COU</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Country</ApplicationLanguagePromptText>
+        <EnglishPromptText>Country</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <CountryValue>
+          <CountryKey>
+            <IsoCode>US</IsoCode>
+          </CountryKey>
+        </CountryValue>
+      </AppItemAnswer>
+    </AppItem>fL
+    <!-- Page 2: Codes.ON-->
+    <!-- Page 3: ProfileData.ON-->
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileNameGiven</IntegrationReference>
+        <TAGReference>GNA</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Given Name</ApplicationLanguagePromptText>
+        <EnglishPromptText>Given Name</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>Regression</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileNameLast</IntegrationReference>
+        <TAGReference>FNA</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Last / Family Name</ApplicationLanguagePromptText>
+        <EnglishPromptText>Last / Family Name</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>Male-New</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileAge</IntegrationReference>
+        <TAGReference>AGE</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Age</ApplicationLanguagePromptText>
+        <EnglishPromptText>Age</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <IntegerValue>99</IntegerValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileDateOfBirth</IntegrationReference>
+        <TAGReference>BID|BIM|BIY</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Date of birth</ApplicationLanguagePromptText>
+        <EnglishPromptText>Date of birth</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <DateValue>2013-03-27</DateValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileOccupation</IntegrationReference>
+        <TAGReference>OCC</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Occupation</ApplicationLanguagePromptText>
+        <EnglishPromptText>Occupation</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>Testing Automation</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileAddressStreet1</IntegrationReference>
+        <TAGReference>ADD</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Address</ApplicationLanguagePromptText>
+        <EnglishPromptText>Address</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>Dhamma Mahavana</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileAddressCity</IntegrationReference>
+        <TAGReference>CIT</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>City</ApplicationLanguagePromptText>
+        <EnglishPromptText>City</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>North Fork</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileAddressProvinceState</IntegrationReference>
+        <TAGReference>PRO</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>State or Province</ApplicationLanguagePromptText>
+        <EnglishPromptText>State or Province</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StateProvinceValue>
+          <StateProvinceKey>
+            <CountryKey>
+              <IsoCode>US</IsoCode>
+            </CountryKey>
+            <IsoCode>CA</IsoCode>
+          </StateProvinceKey>
+        </StateProvinceValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileAddressPostalCode</IntegrationReference>
+        <TAGReference>PCO</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Zip / Postal Code</ApplicationLanguagePromptText>
+        <EnglishPromptText>Zip / Postal Code</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>93643</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileAddressCountry</IntegrationReference>
+        <TAGReference>COU</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Country</ApplicationLanguagePromptText>
+        <EnglishPromptText>Country</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <CountryValue>
+          <CountryKey>
+            <IsoCode>US</IsoCode>
+          </CountryKey>
+        </CountryValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileLanguageNativeCountry</IntegrationReference>
+        <TAGReference>NAT</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Native Country</ApplicationLanguagePromptText>
+        <EnglishPromptText>Native Country</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <CountryValue>
+          <CountryKey>
+            <IsoCode>IN</IsoCode>
+          </CountryKey>
+        </CountryValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileLanguagePrimary</IntegrationReference>
+        <TAGReference>LAN</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Primary Language</ApplicationLanguagePromptText>
+        <EnglishPromptText>Primary Language</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <LanguageValue>
+          <LanguageKey>
+            <IsoCode>hi</IsoCode>
+          </LanguageKey>
+        </LanguageValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileLanguageOther</IntegrationReference>
+        <TAGReference>OLA</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Other languages or dialects that you understand well?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Other languages or dialects that you understand well?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>English</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfileEmail</IntegrationReference>
+        <TAGReference>EMA</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Email Address</ApplicationLanguagePromptText>
+        <EnglishPromptText>Email Address</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>osa30@osaproject.org</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfilePhoneHome</IntegrationReference>
+        <TAGReference>HPH</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Home phone</ApplicationLanguagePromptText>
+        <EnglishPromptText>Home phone</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>5103660169</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfilePhoneMobile</IntegrationReference>
+        <TAGReference>MOBILEPH</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Mobile phone</ApplicationLanguagePromptText>
+        <EnglishPromptText>Mobile phone</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>5103660169</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionProfilePhoneWork</IntegrationReference>
+        <TAGReference>WPH</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Work phone</ApplicationLanguagePromptText>
+        <EnglishPromptText>Work phone</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>5103660169</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <!-- Page 4: PracticeDetails.OS-->
+    <!-- Page 5: GenQuestions.ON-->
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionLearnAboutVipassana</IntegrationReference>
+        <TAGReference>LEA</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>How did you learn about Vipassana or who introduced you to this course?</ApplicationLanguagePromptText>
+        <EnglishPromptText>How did you learn about Vipassana or who introduced you to this course?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>www.dhamma.org</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionPriorExperience</IntegrationReference>
+        <TAGReference>TEC</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Have you had any previous experience with meditation techniques, therapies or healing practices?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Have you had any previous experience with meditation techniques, therapies or healing practices?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionTeachOthersNewStudent</IntegrationReference>
+        <TAGReference>NTT</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>b.  Do you teach or practice these techniques / therapies on others?</ApplicationLanguagePromptText>
+        <EnglishPromptText>b.  Do you teach or practice these techniques / therapies on others?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionPhysicalHealth</IntegrationReference>
+        <TAGReference>PHE</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Do you have any physical health problems, medical conditions or diseases?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Do you have any physical health problems, medical conditions or diseases?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionMentalHealth</IntegrationReference>
+        <TAGReference>MHE</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Do you have, or have you ever had, any mental health problems such as significant depression or anxiety, panic attacks, manic depression, schizophrenia, etc.?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Do you have, or have you ever had, any mental health problems such as significant depression or anxiety, panic attacks, manic depression, schizophrenia, etc.?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionMedication</IntegrationReference>
+        <TAGReference>PME</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Are you now taking, or have you taken within the past two years, any prescribed medication?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Are you now taking, or have you taken within the past two years, any prescribed medication?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionDrugs</IntegrationReference>
+        <TAGReference>DRU</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Are you now taking, or have you taken within the past two years, any alcohol or drugs (such as marijuana, amphetamines, barbituates, cocaine, heroin, or other intoxicants)?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Are you now taking, or have you taken within the past two years, any alcohol or drugs (such as marijuana, amphetamines, barbituates, cocaine, heroin, or other intoxicants)?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionCheckHereIfDriving</IntegrationReference>
+        <TAGReference>RID</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Check here if you are driving and willing to be contacted by other students seeking a ride to the course.</ApplicationLanguagePromptText>
+        <EnglishPromptText>Check here if you are driving and willing to be contacted by other students seeking a ride to the course.</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <CheckboxValue>false</CheckboxValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionFriendsOrFamiliy</IntegrationReference>
+        <TAGReference>FRI</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Will a friend or family member be taking this course as well?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Will a friend or family member be taking this course as well?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <OptionValue>No</OptionValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionAdditionalInformation</IntegrationReference>
+        <TAGReference>WishToAdd</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Anything you wish to add to the above information?</ApplicationLanguagePromptText>
+        <EnglishPromptText>Anything you wish to add to the above information?</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <TextValue>Sadhu Sadhu Sadhu!</TextValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionSignatureAgreeToTerms</IntegrationReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Yes, I have read, agree with and accept the terms of the Privacy Policy and the other terms of submission of this application form.</ApplicationLanguagePromptText>
+        <EnglishPromptText>Yes, I have read, agree with and accept the terms of the Privacy Policy and the other terms of submission of this application form.</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <CheckboxValue>true</CheckboxValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionSignatureName</IntegrationReference>
+        <TAGReference>SIG</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Name</ApplicationLanguagePromptText>
+        <EnglishPromptText>Name</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <StringValue>Regression Tester</StringValue>
+      </AppItemAnswer>
+    </AppItem>
+    <AppItem>
+      <AppItemKey>
+        <IntegrationReference>QuestionSignatureDate</IntegrationReference>
+        <TAGReference>DSI</TAGReference>
+      </AppItemKey>
+      <AppItemPrompt>
+        <ApplicationLanguagePromptText>Date</ApplicationLanguagePromptText>
+        <EnglishPromptText>Date</EnglishPromptText>
+      </AppItemPrompt>
+      <AppItemAnswer>
+        <DateValue>2013-04-21</DateValue>
+      </AppItemAnswer>
+    </AppItem>
+    <!-- Page 6: Confirm.ON-->
+  </AppItems>
+</Application>
+
